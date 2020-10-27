@@ -9,7 +9,7 @@ body {
 
 /* Headings and Paragraph */
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -47,10 +47,11 @@ img {
 /* Footer */
 
 footer {
-    background-color: tan;
-    padding: 2%;
+    background-color: #e6d1b3;
+    padding: 1%;
 }
 
 footer p {
     color: black;
+    text-align: center;
 }
