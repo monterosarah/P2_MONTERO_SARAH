@@ -12,11 +12,9 @@ body {
 h1 {
     font-size: 3rem;
     text-align: center;
-    padding: 5%;
     position: fixed;
-    width: 100%;
-    margin-top: -6px;
-    margin-left: -12%;
+    top: 0;
+    width: 85%;
 }
 
 h2 {
@@ -37,8 +35,8 @@ p {
 
 .menu-wrap {
     position: fixed;
-    top: 4%;
-    left: 83%;
+    top: 3.5%;
+    left: 80%;
     z-index: 100;
 
 }
@@ -59,8 +57,8 @@ p {
     top: 0;
     left: 0;
     z-index: 1;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     padding: 1rem;
     background: var(--primary-color);
     display: flex;
@@ -68,7 +66,7 @@ p {
     justify-content: center;
 }
   
-  /* Hamburger Line */
+/* Hamburger Line */
 
 .menu-wrap .hamburger > div {
     position: relative;
@@ -82,32 +80,32 @@ p {
     transition: all 0.4s ease;
 }
   
-  /* Hamburger Lines - Top and Bottom */
+/* Hamburger Lines - Top and Bottom */
 
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
     content: '';
     position: absolute;
     z-index: 1;
-    top: -10px;
+    top: -12px;
     width: 100%;
     height: 2px;
     background: inherit;
 }
   
-  /* Moves Line Down */
+/* Moves Line Down */
 
 .menu-wrap .hamburger > div::after {
-    top: 10px;
+    top: 12px;
 }
   
-  /* Toggler Animation */
+/* Toggler Animation */
 
 .menu-wrap .toggler:checked + .hamburger > div {
     transform: rotate(135deg);
 }
   
-  /* Turns Lines Into X */
+/* Turns Lines Into X */
 
 .menu-wrap .toggler:checked + .hamburger > div:before,
 .menu-wrap .toggler:checked + .hamburger > div:after {
@@ -115,13 +113,13 @@ p {
     transform: rotate(90deg);
 }
   
-  /* Rotate On Hover When Checked */
+/* Rotate On Hover When Checked */
 
 .menu-wrap .toggler:checked:hover + .hamburger > div {
     transform: rotate(225deg);
 }
   
-  /* Show Menu */
+/* Show Menu */
 
 .menu-wrap .toggler:checked ~ .menu {
     visibility: visible;
@@ -185,6 +183,37 @@ p {
     text-decoration: none;
     transition: color 0.4s ease;
 }  
+
+
+/* Breadcrumb */
+
+.breadcrumb {
+  margin-top: 100px;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+}
 
 /* Images */
 
