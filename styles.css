@@ -11,10 +11,13 @@ body {
 /* Headings and Paragraph */
 h1 {
     font-size: 3rem;
-    text-align: center;
     position: fixed;
+    padding: 20px;
+    padding-left: 10%;
+    margin-top: 0;
     top: 0;
-    width: 85%;
+    width: 100%;
+    background-color: #e6d1b3;
 }
 
 h2 {
@@ -35,8 +38,8 @@ p {
 
 .menu-wrap {
     position: fixed;
-    top: 3.5%;
-    left: 80%;
+    top: 10px;
+    left: 81%;
     z-index: 100;
 
 }
@@ -188,7 +191,9 @@ p {
 /* Breadcrumb */
 
 .breadcrumb {
-  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2%;
+  margin-top: 110px;
 }
 
 ul.breadcrumb {
