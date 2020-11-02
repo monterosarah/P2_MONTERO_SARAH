@@ -199,6 +199,14 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   position: relative;
+  margin-top: 95px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.slideshow-container img {
+    width: 100%;
 }
 
 /* Next & previous buttons */
