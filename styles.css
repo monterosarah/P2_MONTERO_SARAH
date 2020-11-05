@@ -380,10 +380,36 @@ footer p {
 /*** Tablet Version ***/
 @media (min-width: 768px) and (max-width: 1023px) {
     h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     h2 {
-        font-size: 3.25rem;
+        font-size: 2.75rem;
+    }
+
+    .menu-wrap {
+        top: 25px;
+        left: 83%;
+    }
+      
+    .menu-wrap .hamburger {
+        width: 55px;
+        height: 55px;
+    }
+
+    .menu-wrap .hamburger > div {
+        width: 55px;
+        height: 4px;
+    }
+ 
+    .menu-wrap .hamburger > div::before,
+    .menu-wrap .hamburger > div::after {
+        top: -17px;
+        height: 4px;
+
+    }
+    
+    .menu-wrap .hamburger > div::after {
+        top: 17px;
     }
 }
