@@ -406,10 +406,18 @@ footer p {
     .menu-wrap .hamburger > div::after {
         top: -17px;
         height: 4px;
-
     }
     
     .menu-wrap .hamburger > div::after {
         top: 17px;
+    }
+  
+    .prev, .next {
+        width: 9%;
+        font-size: 2.5rem;
+    }
+  
+    .prev:hover, .next:hover {
+        width: 9%;
     }
 }
