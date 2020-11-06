@@ -219,7 +219,7 @@ img {vertical-align: middle;}
 .slideshow-container img {
     width: 100%;
     margin-bottom: 10px;
-    border-radius: 0px 0px 60px 60px;
+    border-radius: 0px 0px 40px 40px;
 }
 
 /* Next & previous buttons */
@@ -428,6 +428,6 @@ footer p {
     }
 
     .slideshow-container img {
-        border-radius: 0px 0px 90px 90px;
+        border-radius: 0px 0px 60px 60px;
     }
 }
