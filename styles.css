@@ -245,11 +245,14 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+.prev {
+    padding-left: 3.25%;
+}
+
 .next {
   right: 0;
   border-radius: 50% 0 0 50%;
-  padding-left: 3.5%;
+  padding-left: 4.75%;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -419,8 +422,17 @@ footer p {
     }
   
     .prev, .next {
-        width: 9%;
+        width: 8%;
         font-size: 2.5rem;
+    }
+
+    .prev {
+        padding-left: 2.25%;
+    }
+
+    .next {
+        padding-right: 3.25%;
+        padding-left: 3.5%;
     }
   
     .prev:hover, .next:hover {
@@ -492,12 +504,20 @@ footer p {
 
     .prev, .next {
         top: 50%;
-        width: 9%;
-        font-size: 2.5rem;
+        width: 7%;
+        font-size: 3rem;
+    }
+
+    .prev {
+        padding-left: 2%;
+    }
+
+    .next {
+        padding-left: 3%;
     }
   
     .prev:hover, .next:hover {
-        width: 9%;
+        width: 7%;
     }
 
     .slideshow-container img {
