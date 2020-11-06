@@ -44,8 +44,7 @@ p {
     padding-right: 8%;
 }
 
-/* Hamburger Navigation */
-
+@media (min-width: 0px) and (max-width: 1023px) {
 .menu-wrap {
     position: fixed;
     top: 25px;
@@ -199,6 +198,7 @@ p {
     text-decoration: none;
     transition: color 0.4s ease;
 }  
+}
 
 /* Slideshow */
 
@@ -432,39 +432,30 @@ footer p {
     }
 }
 
-/*** Tablet Version ***/
+/*** Desktop Version ***/
 @media (min-width: 1024px) {
     h1 {
+        margin: 0;
+        padding: 20px;
         font-size: 3.5rem;
+        text-align: center;
+        background-color: white;
     }
 
     h2 {
         font-size: 2.75rem;
     }
 
-    .menu-wrap {
-        top: 25px;
-        left: 83%;
-    }
-      
-    .menu-wrap .hamburger {
-        width: 55px;
-        height: 55px;
-    }
-
-    .menu-wrap .hamburger > div {
-        width: 55px;
-        height: 4px;
-    }
- 
-    .menu-wrap .hamburger > div::before,
-    .menu-wrap .hamburger > div::after {
-        top: -17px;
-        height: 4px;
-    }
-    
-    .menu-wrap .hamburger > div::after {
-        top: 17px;
+    .menu-wrap .menu > div > div > ul > li {
+        list-style: none;
+        color: #000;
+        font-family: 'Amatic SC', cursive;
+        font-size: 2.25rem;
+        letter-spacing: 0.2rem;
+        line-height: 3rem;
+        word-spacing: .4rem;
+        padding: 1rem;
+        float: left;
     }
   
     .prev, .next {
