@@ -431,3 +431,52 @@ footer p {
         border-radius: 0px 0px 60px 60px;
     }
 }
+
+/*** Tablet Version ***/
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.75rem;
+    }
+
+    .menu-wrap {
+        top: 25px;
+        left: 83%;
+    }
+      
+    .menu-wrap .hamburger {
+        width: 55px;
+        height: 55px;
+    }
+
+    .menu-wrap .hamburger > div {
+        width: 55px;
+        height: 4px;
+    }
+ 
+    .menu-wrap .hamburger > div::before,
+    .menu-wrap .hamburger > div::after {
+        top: -17px;
+        height: 4px;
+    }
+    
+    .menu-wrap .hamburger > div::after {
+        top: 17px;
+    }
+  
+    .prev, .next {
+        width: 9%;
+        font-size: 2.5rem;
+    }
+  
+    .prev:hover, .next:hover {
+        width: 9%;
+    }
+
+    .slideshow-container img {
+        border-radius: 0px 0px 60px 60px;
+    }
+}
