@@ -446,19 +446,52 @@ footer p {
         font-size: 2.75rem;
     }
 
-    .menu-wrap .menu > div > div > ul > li {
-        list-style: none;
+    .menu-wrap {
+        position: fixed;
+        z-index: 2;
+        background-color: #eadbc8;
+        width: 100%;
+        margin-top: 9px;
+        padding: 5px;
+        padding-top: 15px;
+    }
+
+    .menu-wrap .toggler {
+        display: none;
+    }
+
+    .menu-wrap .menu > div > div > ul {
+        list-style-type: none;
+        text-align: center;
         color: #000;
         font-family: 'Amatic SC', cursive;
-        font-size: 2.25rem;
         letter-spacing: 0.2rem;
-        line-height: 3rem;
+        word-spacing: 1.5rem;
+    }
+
+    .menu-wrap .menu > div > div > ul > li {
+        display: inline;
+        color: #000;
+        font-family: 'Amatic SC', cursive;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        line-height: 0;
         word-spacing: .4rem;
         padding: 1rem;
-        float: left;
     }
-  
+
+    .menu-wrap .menu > div > div > ul > li > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .slideshow-container {
+        top: 0;
+    }
+
     .prev, .next {
+        top: 50%;
         width: 9%;
         font-size: 2.5rem;
     }
