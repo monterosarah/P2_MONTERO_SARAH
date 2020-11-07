@@ -377,7 +377,7 @@ img {
 footer {
     background-color: #eadbc8;
     padding: 1%;
-    margin-top: 7%
+    margin-top: 7%;
 }
 
 footer p {
@@ -446,6 +446,12 @@ footer p {
 
 /*** Desktop Version ***/
 @media (min-width: 1024px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     h1 {
         margin: 0;
         padding: 20px;
@@ -456,6 +462,21 @@ footer p {
 
     h2 {
         font-size: 2.75rem;
+        width: 40%;
+        margin-left: 8%;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-left: 9.5%;
+        margin-bottom: 0;
+        padding: 0;
+        width: 40%;
+    }
+
+    #lfloat {
+        float: left;
     }
 
     .menu-wrap {
@@ -522,5 +543,32 @@ footer p {
 
     .slideshow-container img {
         border-radius: 0px 0px 60px 60px;
+    }
+
+    .contentimg {
+        width: 35%;
+    }
+
+    #firstimg {
+        float: right;
+        margin-top: -3%;
+        margin-right: 9%;
+    }
+
+    #secondimg {
+        float: left;
+    }
+
+    footer {
+        background-color: #eadbc8;
+        width: 100%;
+        text-align: center;
+        clear: both;
+    }
+    
+    footer p {
+        color: black;
+        padding: 2%;
+        margin: 0;
     }
 }
