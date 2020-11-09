@@ -475,8 +475,14 @@ footer p {
         width: 40%;
     }
 
-    #lfloat {
-        float: left;
+    .rfloat {
+        margin-right: 0;
+        margin-left: 41%;
+        padding: 0;
+    }
+
+    .rfloat p, h2 {
+        width: 70%;
     }
 
     .menu-wrap {
@@ -556,17 +562,19 @@ footer p {
     }
 
     #secondimg {
+        margin: 6%;
         float: left;
     }
 
     footer {
         background-color: #eadbc8;
         width: 100%;
-        text-align: center;
         clear: both;
     }
     
     footer p {
+        width: 100%;
+        text-align: center;
         color: black;
         padding: 2%;
         margin: 0;
