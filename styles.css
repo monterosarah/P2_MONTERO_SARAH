@@ -463,27 +463,27 @@ footer p {
     h2 {
         font-size: 2.75rem;
         width: 100%;
-        margin-bottom: 5%;
+        margin-bottom: 3%;
     }
 
     p {
         font-size: 1rem;
+        line-height: 2rem;
         margin-left: 7.5%;
         margin-right: 7.5%;
         margin-bottom: 0;
         padding: 0;
-        width: 50%;
+        width: 80%;
         text-align: center;
     }
 
     .rfloat {
         margin-right: 0;
-        margin-left: 42%;
         padding: 0;
     }
 
     .rfloat p {
-        width: 70%;
+        width: 85%;
         padding: 0;
     }
 
@@ -559,15 +559,13 @@ footer p {
 
     #firstimg {
         float: right;
-        margin-top: -3%;
         margin-right: 9%;
         margin-left: 5%;
     }
 
     #secondimg {
-        margin-left: 7.5%;
+        margin-left: 9%;
         margin-right: 5%;
-        margin-top: -3%;
         float: left;
         border-radius: 0.8% 55% 0.8% 55%;
     }
