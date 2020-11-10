@@ -451,6 +451,10 @@ footer p {
     .slideshow-container img {
         border-radius: 0px 0px 60px 60px;
     }
+
+    .contentimg {
+        width: 55%;
+    }
 }
 
 /*** Desktop Version ***/
