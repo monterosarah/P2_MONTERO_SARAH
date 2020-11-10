@@ -507,7 +507,6 @@ footer p {
         color: #000;
         font-family: 'Amatic SC', cursive;
         letter-spacing: 0.2rem;
-        word-spacing: 1.5rem;
     }
 
     .menu-wrap .menu > div > div > ul > li {
@@ -518,8 +517,9 @@ footer p {
         font-size: 2rem;
         letter-spacing: 0.2rem;
         line-height: 0;
-        word-spacing: .4rem;
         padding: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .menu-wrap .menu > div > div > ul > li > a {
