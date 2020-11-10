@@ -45,6 +45,8 @@ p {
     padding-right: 8%;
 }
 
+/* Hamburger Menu */
+
 @media (min-width: 0px) and (max-width: 1023px) {
 .menu-wrap {
     position: fixed;
@@ -78,7 +80,7 @@ p {
     justify-content: center;
 }
   
-/* Hamburger Line */
+/* Hamburger Lines */
 
 .menu-wrap .hamburger > div {
     position: relative;
@@ -91,8 +93,6 @@ p {
     justify-content: center;
     transition: all 0.4s ease;
 }
-  
-/* Hamburger Lines - Top and Bottom */
 
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
@@ -104,8 +104,6 @@ p {
     height: 3px;
     background: inherit;
 }
-  
-/* Moves Line Down */
 
 .menu-wrap .hamburger > div::after {
     top: 12px;
@@ -116,16 +114,12 @@ p {
 .menu-wrap .toggler:checked + .hamburger > div {
     transform: rotate(135deg);
 }
-  
-/* Turns Lines Into X */
 
 .menu-wrap .toggler:checked + .hamburger > div:before,
 .menu-wrap .toggler:checked + .hamburger > div:after {
     top: 0;
     transform: rotate(90deg);
 }
-  
-/* Rotate On Hover When Checked */
 
 .menu-wrap .toggler:checked:hover + .hamburger > div {
     transform: rotate(225deg);
@@ -208,13 +202,12 @@ body {margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
-/* Slideshow container */
 .slideshow-container {
-  position: relative;
-  margin-top: 95px;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0;
+    position: relative;
+    margin-top: 95px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
 
 .slideshow-container img {
@@ -223,27 +216,28 @@ img {vertical-align: middle;}
     border-radius: 0px 0px 40px 40px;
 }
 
-/* Next & previous buttons */
+/* Next & Previous Buttons */
+
 .prev, .next {
-  background-color: rgba(0,0,0,0.4);
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: 12%;
-  padding: 2%;
-  padding-right: -2%;
-  height: auto;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 3rem;
-  -webkit-transition: all .4s ease-in-out;
-  -moz-transition: all .4s ease-in-out;
-  -ms-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-  border-radius: 0 50% 50% 0;
-  user-select: none;
+    background-color: rgba(0,0,0,0.4);
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: 12%;
+    padding: 2%;
+    padding-right: -2%;
+    height: auto;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    border-radius: 0 50% 50% 0;
+    user-select: none;
 }
 
 .prev {
@@ -251,16 +245,15 @@ img {vertical-align: middle;}
 }
 
 .next {
-  right: 0;
-  border-radius: 50% 0 0 50%;
-  padding-left: 4.75%;
+    right: 0;
+    border-radius: 50% 0 0 50%;
+    padding-left: 4.75%;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.6);
-  border-radius: 0 25% 25% 0;
-  width: 12%;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 0 25% 25% 0;
+    width: 12%;
 }
 
 .next:hover {
@@ -268,66 +261,70 @@ img {vertical-align: middle;}
 }
 
 /* Caption text */
+
 .text {
-  color: #000;
-  font-size: 1rem;
-  padding: 10%;
-  position: absolute;
-  bottom: 15%;
-  width: 100%;
-  text-align: center;
+    color: #000;
+    font-size: 1rem;
+    padding: 10%;
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    text-align: center;
 }
 
-/* The dots/bullets/indicators */
+/* The Dots Below Slideshow Images */
+
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition-property: background-color, width, height;
-  transition-duration: 0.6s;
-  transition-timing-function: ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition-property: background-color, width, height;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
 }
 
 .active, .dot:hover {
-  background-color: #888888;
-  width: 17px;
-  height: 17px;
+    background-color: #888888;
+    width: 17px;
+    height: 17px;
 }
 
 /* Fading animation */
+
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {opacity: .4} 
+    to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {opacity: .4} 
+    to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
+/* Decrease Text Size on Smaller Screens */
+
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+    .prev, .next,.text {font-size: 11px}
 }
 
 /* Breadcrumb */
 
 .breadcrumb {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 6.5%;
-  margin-top: 10px;
-  margin-bottom: -2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6.5%;
+    margin-top: 10px;
+    margin-bottom: -2.5rem;
 }
 
 ul.breadcrumb {
