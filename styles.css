@@ -389,9 +389,65 @@ footer {
 
 footer p {
     color: black;
+    font-size: 1rem;
     text-align: center;
 }
 
+/* Social Media Links */
+
+#social {
+    font-size: 1.5rem;
+}
+
+footer .fa {
+    padding: 13px;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1%;
+    margin-left: 2%;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+    background-color: black;
+    color: white;
+}
+
+.fa-facebook {
+    background: #eadbc8;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: black;
+}
+
+.fa-twitter {
+    background: #eadbc8;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: black;
+}
+
+.fa-instagram {
+    background: #eadbc8;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: black;
+}
+
+.fa-pinterest {
+    background: #eadbc8;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: black;
+}
 
 /*** Tablet Version ***/
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -583,7 +639,6 @@ footer p {
     }
 
     footer {
-        background-color: #eadbc8;
         width: 100%;
         clear: both;
     }
@@ -592,7 +647,7 @@ footer p {
         width: 100%;
         text-align: center;
         color: black;
-        padding: 2%;
+        padding: 1%;
         margin: 0;
     }
 }
