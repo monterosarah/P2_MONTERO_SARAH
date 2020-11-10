@@ -372,6 +372,15 @@ img {
     border-radius: 55% 0.8% 55% 0.8%;
 }
 
+/* Horizontal Rule */
+
+hr {
+    margin-top: 5%;
+    margin-bottom: 6%;
+    width: 90%;
+    border: 1px solid darkgrey;
+}
+
 /* Footer */
 
 footer {
@@ -568,13 +577,6 @@ footer p {
         margin-right: 5%;
         float: left;
         border-radius: 0.8% 55% 0.8% 55%;
-    }
-
-    hr {
-        margin-top: 5%;
-        margin-bottom: 6%;
-        width: 90%;
-        border: 1px solid darkgrey;
     }
 
     footer {
