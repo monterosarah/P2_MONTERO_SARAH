@@ -37,6 +37,15 @@ h2 {
     margin-right: 5%;
 }
 
+h3 {
+    font-family: 'Stardos Stencil', cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -5px;
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
@@ -394,6 +403,11 @@ footer p {
     text-align: center;
 }
 
+#copyhr {
+    width: 100%;
+    border: 1px solid #404040;
+}
+
 /* Social Media Links */
 
 #social {
@@ -414,7 +428,7 @@ footer .fa {
 }
   
 .fa:hover {
-    background-color: black;
+    background-color: #4d4d4d;
     color: white;
 }
 
