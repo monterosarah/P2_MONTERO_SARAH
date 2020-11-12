@@ -630,6 +630,7 @@ footer .fa {
         font-size: 3.5rem;
         text-align: center;
         background-color: white;
+        box-shadow: none;
     }
 
     h2 {
@@ -673,6 +674,7 @@ footer .fa {
         margin-top: 9px;
         padding: 5px;
         padding-top: 25px;
+        box-shadow: 1px 4px 12px grey;
     }
 
     .menu-wrap .toggler {
