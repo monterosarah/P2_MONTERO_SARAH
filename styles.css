@@ -62,6 +62,12 @@ p {
     padding-right: 5%;
 }
 
+/* Links */
+
+a {
+    color: 
+}
+
 /* Hamburger Menu */
 
 @media (min-width: 0px) and (max-width: 1023px) {
@@ -568,7 +574,7 @@ footer .fa {
     }
 
     .slideshow-container img {
-        border-radius: 0px 0px 60px 60px;
+        border-radius: 0px 0px 40px 40px;
     }
 
     .contentimg {
