@@ -411,36 +411,28 @@ footer p {
     margin-bottom: 7px;
 }
 
-#contactus {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-#contactus p {
-    margin-bottom: 0;
-}
-
 /* Social Media Links */
 
 #social {
-    font-size: 1.5rem;
     font-family: 'Stardos Stencil', cursive;
+    font-size: 1.2rem;
+    text-align: right;
 }
 
 footer .fa {
-    padding: 10px;
+    padding: 6px;
     font-size: 25px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     text-align: center;
     text-decoration: none;
-    margin: 1%;
-    margin-left: 2%;
+    margin: 0;
+    margin-left: 10px;
     border-radius: 50%;
 }
   
 .fa:hover {
-    background-color: #4d4d4d;
+    background-color: black;
     color: white;
 }
 
@@ -448,7 +440,7 @@ footer .fa {
     background: #eadbc8;
     border-style: solid;
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
     color: black;
 }
 
@@ -456,7 +448,7 @@ footer .fa {
     background: #eadbc8;
     border-style: solid;
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
     color: black;
 }
 
@@ -464,7 +456,7 @@ footer .fa {
     background: #eadbc8;
     border-style: solid;
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
     color: black;
 }
 
@@ -472,7 +464,7 @@ footer .fa {
     background: #eadbc8;
     border-style: solid;
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
     color: black;
 }
 
@@ -689,33 +681,11 @@ footer .fa {
         text-align: left;
     }
 
-    #footfloat p{
-        border-right-style: solid;
-        border-right-color: #737373;
-        border-right-width: 2px;
-        margin-bottom: -20px;
-    }
-
-    #footfloat h3 {
-        text-align: left;
-        margin-left: 7%;
-        margin-top: 10px;
-    }
-
     #copyhr {
         width: 100%;
         border: 1px solid #404040;
         opacity: .3;
-        margin-top: 110px;
         margin-bottom: 0;
     }
     
-    #social {
-        width: 40%;
-        font-size: 1.5rem;
-        font-family: 'Stardos Stencil', cursive;
-        text-align: center;
-        margin-left: 52.5%;
-        margin-top: -170px;
-    }
 }
