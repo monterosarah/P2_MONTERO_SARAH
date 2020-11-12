@@ -40,11 +40,16 @@ h2 {
 h3 {
     font-family: 'Stardos Stencil', cursive;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
-    text-decoration: underline;
+    line-height: .5rem;
     margin-top: 50px;
-    margin-bottom: -5px;
+    text-decoration: underline;
+}
+
+h3 a {
+    text-decoration: underline;
+    color: black;
 }
 
 p {
@@ -52,8 +57,6 @@ p {
     font-size: 1.2rem;
     line-height: 2rem;
     text-align: center;
-    padding-left: 8%;
-    padding-right: 8%;
 }
 
 /* Hamburger Menu */
@@ -411,12 +414,49 @@ footer p {
     margin-bottom: 7px;
 }
 
+/* Site Map */
+
+.map {
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.map a {
+    text-decoration: none;
+    color: black;
+}
+
+.map li {
+    list-style-type: none;
+    text-align: left;
+    line-height: 1.75rem;
+}
+
+#inspirationmap {
+    float: right;
+    margin-left: -50px;
+    margin-top: -205px;
+}
+
+#singles {
+    float: right;
+    width: 60%;
+    margin-top: -200px;
+}
+
+#singles h3 {
+    width: 100%;
+    margin-left: 85px;
+}
+
 /* Social Media Links */
 
 #social {
     font-family: 'Stardos Stencil', cursive;
     font-size: 1.2rem;
     text-align: right;
+    margin-right: 20px;
 }
 
 footer .fa {
