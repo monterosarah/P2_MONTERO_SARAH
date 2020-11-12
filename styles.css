@@ -571,6 +571,48 @@ footer .fa {
     .contentimg {
         width: 55%;
     }
+
+    .map {
+        width: 30%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .map a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .map li {
+        list-style-type: none;
+        text-align: left;
+        line-height: 1.75rem;
+    }
+
+    #inspirationmap {
+        float: left;
+        margin-left: 33%;
+        margin-top: -205px;
+    }
+
+    #ideasmap {
+        float: left;
+        margin-left: 66%;
+        margin-top: -205px;
+    }
+
+    #singles {
+        float: left;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-left: -85px;
+    }
+
+    #aboutmap {
+        margin-top: -58px;
+        margin-left: 33%;
+    }
 }
 
 /*** Desktop Version ***/
@@ -598,7 +640,7 @@ footer .fa {
     }
 
     h3 {
-        text-decoration: none;
+        text-decoration: underline;
     }
 
     p {
@@ -729,5 +771,44 @@ footer .fa {
         opacity: .3;
         margin-bottom: 0;
     }
-    
+
+    .map {
+        width: 20%;
+        padding-left: 2%;
+        padding-right: 0;
+    }
+
+    .map a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .map li {
+        list-style-type: none;
+        text-align: left;
+        line-height: 1.75rem;
+    }
+
+    #inspirationmap {
+        float: left;
+        margin-left: 25%;
+        margin-top: -205px;
+    }
+
+    #ideasmap {
+        float: left;
+        margin-left: 50%;
+        margin-top: -205px;
+    }
+
+    #singles {
+        float: right;
+        margin-left: 85%;
+        margin-top: -180px;
+        margin-bottom: 100px;
+    }
+
+    #aboutmap {
+        margin: 0;
+    }
 }
