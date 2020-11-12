@@ -20,6 +20,7 @@ h1 {
     width: 100%;
     background-color: #eadbc8;
     z-index: 10;
+    box-shadow: 1px 4px 12px grey;
 }
 
 h1 a {
