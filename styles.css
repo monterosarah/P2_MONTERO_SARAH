@@ -748,6 +748,7 @@ footer .fa {
     footer {
         width: 100%;
         clear: both;
+        margin: 0;
     }
     
     footer p {
@@ -774,8 +775,8 @@ footer .fa {
 
     .map {
         width: 20%;
-        padding-left: 2%;
-        padding-right: 0;
+        padding-left: 1%;
+        padding-right: 1%;
     }
 
     .map a {
@@ -789,9 +790,13 @@ footer .fa {
         line-height: 1.75rem;
     }
 
+    #designmap {
+        margin-left: 7%;
+    }
+
     #inspirationmap {
         float: left;
-        margin-left: 25%;
+        margin-left: 28%;
         margin-top: -205px;
     }
 
@@ -801,14 +806,20 @@ footer .fa {
         margin-top: -205px;
     }
 
-    #singles {
-        float: right;
-        margin-left: 85%;
-        margin-top: -180px;
-        margin-bottom: 100px;
+    #aboutmap {
+        width: 25%;
+        margin-top: 5px;
+        margin-left: 48%;
     }
 
-    #aboutmap {
-        margin: 0;
+    #contactmap {
+        width: 25%;
+        margin-left: 48%;
+    }
+
+    #social {
+        float: left;
+        margin-top: 3%;
+        padding-right: 5%;
     }
 }
