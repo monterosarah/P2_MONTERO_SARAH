@@ -593,35 +593,36 @@ footer .fa {
         color: black;
     }
 
-    .map li {
-        list-style-type: none;
-        text-align: left;
-        line-height: 1.75rem;
-    }
-
     #inspirationmap {
         float: left;
         margin-left: 33%;
-        margin-top: -205px;
+        margin-top: -219px;
     }
 
     #ideasmap {
         float: left;
         margin-left: 66%;
-        margin-top: -205px;
+        margin-top: -219px;
     }
 
     #singles {
         float: left;
         width: 100%;
-        margin-top: 0;
+        margin-top: -25px;
         margin-bottom: 20px;
-        margin-left: -85px;
+        margin-left: -14%;
     }
 
     #aboutmap {
         margin-top: -58px;
         margin-left: 33%;
+    }
+
+    #social {
+        font-family: 'Stardos Stencil', cursive;
+        font-size: 1.5rem;
+        text-align: right;
+        margin-top: 110px;
     }
 }
 
@@ -786,7 +787,7 @@ footer .fa {
     }
 
     .map {
-        width: 20%;
+        width: 25%;
         padding-left: 1%;
         padding-right: 1%;
     }
@@ -802,36 +803,32 @@ footer .fa {
         line-height: 1.75rem;
     }
 
-    #designmap {
-        margin-left: 7%;
-    }
-
     #inspirationmap {
         float: left;
-        margin-left: 28%;
-        margin-top: -205px;
+        margin-left: 25%;
+        margin-top: -251px;
     }
 
     #ideasmap {
         float: left;
         margin-left: 50%;
-        margin-top: -205px;
+        margin-top: -251px;
     }
 
     #aboutmap {
         width: 25%;
         margin-top: 5px;
-        margin-left: 48%;
+        margin-left: 55%;
     }
 
     #contactmap {
         width: 25%;
-        margin-left: 48%;
+        margin-left: 55%;
     }
 
     #social {
         float: left;
-        margin-top: 3%;
-        padding-right: 5%;
+        margin-top: 0;
+        padding-right: 3%;
     }
 }
