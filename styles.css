@@ -593,15 +593,19 @@ footer .fa {
         color: black;
     }
 
+    #designmap {
+        margin-left: 1%;
+    }
+
     #inspirationmap {
         float: left;
-        margin-left: 33%;
+        margin-left: 35%;
         margin-top: -219px;
     }
 
     #ideasmap {
         float: left;
-        margin-left: 66%;
+        margin-left: 68%;
         margin-top: -219px;
     }
 
@@ -610,7 +614,7 @@ footer .fa {
         width: 100%;
         margin-top: -25px;
         margin-bottom: 20px;
-        margin-left: -14%;
+        margin-left: -13%;
     }
 
     #aboutmap {
