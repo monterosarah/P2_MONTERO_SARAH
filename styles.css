@@ -807,8 +807,6 @@ footer .fa {
 
     .map {
         width: 25%;
-        padding-left: 1%;
-        padding-right: 1%;
     }
 
     .map a {
@@ -820,6 +818,7 @@ footer .fa {
         list-style-type: none;
         text-align: left;
         line-height: 1.75rem;
+        margin-left: -30%;
     }
 
     #inspirationmap {
@@ -828,21 +827,33 @@ footer .fa {
         margin-top: -251px;
     }
 
+    #inspirationmap h3 {
+        margin-left: -57%;
+    }
+
     #ideasmap {
         float: left;
-        margin-left: 50%;
+        margin-left: 51%;
         margin-top: -251px;
     }
 
+    #ideasmap li {
+        margin-left: -35%;
+    }
+
+    #singles {
+        margin-top: -250px;
+    }
+
     #aboutmap {
-        width: 25%;
+        width: 35%;
         margin-top: 5px;
-        margin-left: 55%;
+        margin-left: 45%;
     }
 
     #contactmap {
-        width: 25%;
-        margin-left: 55%;
+        width: 35%;
+        margin-left: 45%;
     }
 
     #social {
