@@ -420,6 +420,7 @@ footer p {
 #copyhr {
     width: 100%;
     border: 1px solid #404040;
+    opacity: 0.3;
     margin-top: 5px;
     margin-bottom: 7px;
 }
@@ -428,13 +429,17 @@ footer p {
 
 .map {
     width: 60%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .map a {
     text-decoration: none;
     color: black;
+}
+
+.map h3 {
+    margin-left: -17%;
 }
 
 .map li {
@@ -443,12 +448,18 @@ footer p {
     text-align: left;
     line-height: 1.25rem;
     margin-bottom: 15px;
+    margin-left: -20px;
 }
 
 #inspirationmap {
-    float: right;
-    margin-left: -50px;
+    float: left;
+    width: 45%;
+    margin-left: 55%;
     margin-top: -218px;
+}
+
+#inspirationmap li {
+    margin-left: -40px;
 }
 
 #singles {
@@ -459,7 +470,7 @@ footer p {
 
 #singles h3 {
     width: 100%;
-    margin-left: 50%;
+    margin-left: 55%;
 }
 
 /* Social Media Links */
