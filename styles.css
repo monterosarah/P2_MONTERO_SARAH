@@ -68,10 +68,6 @@ a {
     color: #4d7580; 
 }
 
-a:visited {
-   
-}
-
 /* Hamburger Menu */
 
 @media (min-width: 0px) and (max-width: 1023px) {
