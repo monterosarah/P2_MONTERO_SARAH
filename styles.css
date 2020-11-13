@@ -65,7 +65,11 @@ p {
 /* Links */
 
 a {
-    color: 
+    color: #4d7580; 
+}
+
+a:visited {
+   
 }
 
 /* Hamburger Menu */
